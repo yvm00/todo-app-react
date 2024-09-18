@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/todo-app-react/static/css/main.cc8f99bb.css",
-    "main.js": "/todo-app-react/static/js/main.f64c4f02.js",
+    "main.js": "/todo-app-react/static/js/main.d9903386.js",
     "static/media/bootstrap-icons.woff?": "/todo-app-react/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/todo-app-react/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/watch.png": "/todo-app-react/static/media/watch.2cf458bb57836f5a6cc7.png",
     "static/media/card.png": "/todo-app-react/static/media/card.566523c2f6d8b77fccd9.png",
+    "static/media/folder.png": "/todo-app-react/static/media/folder.62f8db794db92a38613e.png",
+    "static/media/done.png": "/todo-app-react/static/media/done.a2e299a8878208d4ba53.png",
     "index.html": "/todo-app-react/index.html",
     "main.cc8f99bb.css.map": "/todo-app-react/static/css/main.cc8f99bb.css.map",
-    "main.f64c4f02.js.map": "/todo-app-react/static/js/main.f64c4f02.js.map"
+    "main.d9903386.js.map": "/todo-app-react/static/js/main.d9903386.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8f99bb.css",
-    "static/js/main.f64c4f02.js"
+    "static/js/main.d9903386.js"
   ]
 }
