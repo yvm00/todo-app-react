@@ -1,3 +1,5 @@
+import done from "../image/done.png"
+
 function DoneTodo({ todos_completed, total_todos }) {
     return(
         <div className="container ">
@@ -5,7 +7,7 @@ function DoneTodo({ todos_completed, total_todos }) {
             <div className="done d-flex mt-3 ">
                 <div className="row ms-3">
                     <div className="col-5 align-self-center">
-                            <img className="done__img" src="./done.png"/>                       
+                            <img className="done__img" src={done}/>                       
                     </div>
                     <div className="col-7 mt-2 pt-4">
                     <div className="done__main__text">

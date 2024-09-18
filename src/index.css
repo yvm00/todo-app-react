@@ -124,7 +124,7 @@ ul{
   color: var(--color-button-hover)
 }
 .timer{
-  background-image: url(./media/card.png);
+  background-image: url(../src/image/card.png); 
   background-size: 100% 100%;
   margin-top: 5.5rem;
   height: 20rem;
