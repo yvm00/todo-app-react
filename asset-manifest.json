@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/todo-app-react/static/css/main.cc8f99bb.css",
+    "main.js": "/todo-app-react/static/js/main.f64c4f02.js",
+    "static/media/bootstrap-icons.woff?": "/todo-app-react/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/todo-app-react/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/card.png": "/todo-app-react/static/media/card.566523c2f6d8b77fccd9.png",
+    "index.html": "/todo-app-react/index.html",
+    "main.cc8f99bb.css.map": "/todo-app-react/static/css/main.cc8f99bb.css.map",
+    "main.f64c4f02.js.map": "/todo-app-react/static/js/main.f64c4f02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc8f99bb.css",
+    "static/js/main.f64c4f02.js"
+  ]
+}
