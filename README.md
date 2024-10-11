@@ -2,6 +2,10 @@
     <img style="width:30%" src="src/image/men.png" >
     <h2 align="center"><b>TASKI - React based Todo Application</b></h2>
     <br />  
+    <p align = center>
+         <a  href="https://yvm00.github.io/todo-app-react/">click here to see demo</a>
+    </p>
+   
 </p>
 
 # ✨Introduction
