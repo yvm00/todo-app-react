@@ -1,21 +1,18 @@
-import done from "../image/done.png"
+import men from "../image/men.png"
 
 function DoneTodo({ todos_completed, total_todos }) {
     return(
-        <div className="container ">
-            <p className="main__text mt-4 pt-3 ">Task done</p>
-            <div className="done d-flex mt-3 ">
-                <div className="row ms-3">
-                    <div className="col-5 align-self-center">
-                            <img className="done__img" src={done}/>                       
-                    </div>
-                    <div className="col-7 mt-2 pt-4">
-                    <div className="done__main__text">
-                        {todos_completed}/{total_todos}
-                    </div>
-                    <p className="done__reg__text">Keep it up!</p>
-                    </div>
-                </div>            
+        <div className="mt-5 pt-3 ">
+            <div className="done mt-3 ">
+                <div className=" ms-5">
+                    <div className=" mt-4 pt-4">
+                        <div className="done__main-text">
+                            {todos_completed}/{total_todos}
+                        </div>
+                        <p className="done__reg-text">Keep it up!</p>
+                    </div>                   
+                </div> 
+                <img  className=" done__img" src= {men}/>                   
             </div>
         </div>
     )

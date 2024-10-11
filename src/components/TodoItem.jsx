@@ -84,16 +84,16 @@ function TodoItem({item, todos, setTodos}){
                   <div onClick={completedTodo}>
        
                       <p 
-                      style={item.is_completed ? { color: "#B897D2", textDecoration:"line-through", textDecorationColor:"#B897D2"} : {}}>
+                      style={item.is_completed ? { color: "#FF6161", textDecoration:"line-through", textDecorationColor:"#FF6161"} : {}}>
                       {item.is_completed? (
-                        <i className="bi bi-circle-fill pe-3"></i>
+                        <i className="bi bi-circle-fill pe-3 fs-5"></i>
                       ): <i className="bi bi-circle pe-3"></i>}
                       {item?.title}
                       </p>
                   </div>
                   <div>
-                      <button className='list__button' onClick={handleEdit}><i className="bi bi-pen"></i></button>
-                      <button className='list__button' onClick={handleDelete}><i className="bi bi-trash3"></i></button>
+                      <button className='list__button' onClick={handleEdit}><i className="bi bi-pen "></i></button>
+                      <button className='list__button' onClick={handleDelete}><i className="bi bi-trash3 pe-4"></i></button>
                   </div>                
                 </div>            
             )}

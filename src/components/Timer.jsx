@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import watch from "../image/watch.png"
+
 
 
 function Timer(){
@@ -38,9 +38,9 @@ function Timer(){
 
   return (
     <div className="timer container d-flex flex-column">     
-        <div className="mt-4 pt-1 align-self-center ">
-         <img className="timer__img" src={watch} alt="watch"/>
-        <span className="timer__text">Focusing</span>             
+        <div className="mt-4 pt-2 align-self-center ">
+         
+        <span className="timer__text">Stay Focused</span>             
         </div>
         <div className="timer__start align-self-center">
           <input
@@ -73,9 +73,9 @@ function Timer(){
       <div className="align-self-center">
         <button className="timer__button" onClick={onReset}>Reset</button>
         {isStarted ? (
-          <button className="timer__button" onClick={() => setIsStarted(false)}>Pause</button>
+          <button className="timer__button start" onClick={() => setIsStarted(false)}>Pause</button>
         ) : (
-          <button className="timer__button"
+          <button className="timer__button start"
             onClick={() => setIsStarted(true)}
             disabled={h <= 0 && m <= 0 && s <= 0}
           >

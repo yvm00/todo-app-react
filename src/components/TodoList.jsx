@@ -14,7 +14,7 @@ function TodoList({todos, setTodos}){
                         setTodos={setTodos}
                     />)
                 ) : (
-                    <p className="ps-2 ">Nothing here</p>
+                    <p className="ps-2 text-center">It's empty here :(</p>
                     )}
         </ul>
         </div>

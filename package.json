@@ -2,7 +2,7 @@
   "name": "todo-app-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yvm00.github.io/todo-app-react",
+  "homepage": "https://yvm00.github.io/todo-app-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
